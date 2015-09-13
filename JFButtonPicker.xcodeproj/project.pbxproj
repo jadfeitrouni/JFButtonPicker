@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D701BD391BA5D42C00DE61B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BD381BA5D42C00DE61B6 /* main.m */; };
+		D701BD3C1BA5D42C00DE61B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BD3B1BA5D42C00DE61B6 /* AppDelegate.m */; };
+		D701BD3F1BA5D42C00DE61B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BD3E1BA5D42C00DE61B6 /* ViewController.m */; };
+		D701BD421BA5D42C00DE61B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D701BD401BA5D42C00DE61B6 /* Main.storyboard */; };
+		D701BD441BA5D42C00DE61B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D701BD431BA5D42C00DE61B6 /* Images.xcassets */; };
+		D701BD471BA5D42C00DE61B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D701BD451BA5D42C00DE61B6 /* LaunchScreen.xib */; };
+		D701BD531BA5D42C00DE61B6 /* JFButtonPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BD521BA5D42C00DE61B6 /* JFButtonPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D701BD4D1BA5D42C00DE61B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D701BD2B1BA5D42C00DE61B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D701BD321BA5D42C00DE61B6;
+			remoteInfo = JFButtonPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D701BD331BA5D42C00DE61B6 /* JFButtonPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFButtonPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D701BD371BA5D42C00DE61B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D701BD381BA5D42C00DE61B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D701BD3A1BA5D42C00DE61B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D701BD3B1BA5D42C00DE61B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D701BD3D1BA5D42C00DE61B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D701BD3E1BA5D42C00DE61B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D701BD411BA5D42C00DE61B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D701BD431BA5D42C00DE61B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D701BD461BA5D42C00DE61B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D701BD4C1BA5D42C00DE61B6 /* JFButtonPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFButtonPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D701BD511BA5D42C00DE61B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D701BD521BA5D42C00DE61B6 /* JFButtonPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFButtonPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D701BD301BA5D42C00DE61B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D701BD491BA5D42C00DE61B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D701BD2A1BA5D42C00DE61B6 = {
+			isa = PBXGroup;
+			children = (
+				D701BD351BA5D42C00DE61B6 /* JFButtonPicker */,
+				D701BD4F1BA5D42C00DE61B6 /* JFButtonPickerTests */,
+				D701BD341BA5D42C00DE61B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D701BD341BA5D42C00DE61B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D701BD331BA5D42C00DE61B6 /* JFButtonPicker.app */,
+				D701BD4C1BA5D42C00DE61B6 /* JFButtonPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D701BD351BA5D42C00DE61B6 /* JFButtonPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D701BD3A1BA5D42C00DE61B6 /* AppDelegate.h */,
+				D701BD3B1BA5D42C00DE61B6 /* AppDelegate.m */,
+				D701BD3D1BA5D42C00DE61B6 /* ViewController.h */,
+				D701BD3E1BA5D42C00DE61B6 /* ViewController.m */,
+				D701BD401BA5D42C00DE61B6 /* Main.storyboard */,
+				D701BD431BA5D42C00DE61B6 /* Images.xcassets */,
+				D701BD451BA5D42C00DE61B6 /* LaunchScreen.xib */,
+				D701BD361BA5D42C00DE61B6 /* Supporting Files */,
+			);
+			path = JFButtonPicker;
+			sourceTree = "<group>";
+		};
+		D701BD361BA5D42C00DE61B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D701BD371BA5D42C00DE61B6 /* Info.plist */,
+				D701BD381BA5D42C00DE61B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D701BD4F1BA5D42C00DE61B6 /* JFButtonPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D701BD521BA5D42C00DE61B6 /* JFButtonPickerTests.m */,
+				D701BD501BA5D42C00DE61B6 /* Supporting Files */,
+			);
+			path = JFButtonPickerTests;
+			sourceTree = "<group>";
+		};
+		D701BD501BA5D42C00DE61B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D701BD511BA5D42C00DE61B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D701BD321BA5D42C00DE61B6 /* JFButtonPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D701BD561BA5D42C00DE61B6 /* Build configuration list for PBXNativeTarget "JFButtonPicker" */;
+			buildPhases = (
+				D701BD2F1BA5D42C00DE61B6 /* Sources */,
+				D701BD301BA5D42C00DE61B6 /* Frameworks */,
+				D701BD311BA5D42C00DE61B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFButtonPicker;
+			productName = JFButtonPicker;
+			productReference = D701BD331BA5D42C00DE61B6 /* JFButtonPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D701BD4B1BA5D42C00DE61B6 /* JFButtonPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D701BD591BA5D42C00DE61B6 /* Build configuration list for PBXNativeTarget "JFButtonPickerTests" */;
+			buildPhases = (
+				D701BD481BA5D42C00DE61B6 /* Sources */,
+				D701BD491BA5D42C00DE61B6 /* Frameworks */,
+				D701BD4A1BA5D42C00DE61B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D701BD4E1BA5D42C00DE61B6 /* PBXTargetDependency */,
+			);
+			name = JFButtonPickerTests;
+			productName = JFButtonPickerTests;
+			productReference = D701BD4C1BA5D42C00DE61B6 /* JFButtonPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D701BD2B1BA5D42C00DE61B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = jad;
+				TargetAttributes = {
+					D701BD321BA5D42C00DE61B6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D701BD4B1BA5D42C00DE61B6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D701BD321BA5D42C00DE61B6;
+					};
+				};
+			};
+			buildConfigurationList = D701BD2E1BA5D42C00DE61B6 /* Build configuration list for PBXProject "JFButtonPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D701BD2A1BA5D42C00DE61B6;
+			productRefGroup = D701BD341BA5D42C00DE61B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D701BD321BA5D42C00DE61B6 /* JFButtonPicker */,
+				D701BD4B1BA5D42C00DE61B6 /* JFButtonPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D701BD311BA5D42C00DE61B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D701BD421BA5D42C00DE61B6 /* Main.storyboard in Resources */,
+				D701BD471BA5D42C00DE61B6 /* LaunchScreen.xib in Resources */,
+				D701BD441BA5D42C00DE61B6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D701BD4A1BA5D42C00DE61B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D701BD2F1BA5D42C00DE61B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D701BD3F1BA5D42C00DE61B6 /* ViewController.m in Sources */,
+				D701BD3C1BA5D42C00DE61B6 /* AppDelegate.m in Sources */,
+				D701BD391BA5D42C00DE61B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D701BD481BA5D42C00DE61B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D701BD531BA5D42C00DE61B6 /* JFButtonPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D701BD4E1BA5D42C00DE61B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D701BD321BA5D42C00DE61B6 /* JFButtonPicker */;
+			targetProxy = D701BD4D1BA5D42C00DE61B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D701BD401BA5D42C00DE61B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D701BD411BA5D42C00DE61B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D701BD451BA5D42C00DE61B6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D701BD461BA5D42C00DE61B6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D701BD541BA5D42C00DE61B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D701BD551BA5D42C00DE61B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D701BD571BA5D42C00DE61B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JFButtonPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D701BD581BA5D42C00DE61B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JFButtonPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D701BD5A1BA5D42C00DE61B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JFButtonPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFButtonPicker.app/JFButtonPicker";
+			};
+			name = Debug;
+		};
+		D701BD5B1BA5D42C00DE61B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JFButtonPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFButtonPicker.app/JFButtonPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D701BD2E1BA5D42C00DE61B6 /* Build configuration list for PBXProject "JFButtonPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D701BD541BA5D42C00DE61B6 /* Debug */,
+				D701BD551BA5D42C00DE61B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D701BD561BA5D42C00DE61B6 /* Build configuration list for PBXNativeTarget "JFButtonPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D701BD571BA5D42C00DE61B6 /* Debug */,
+				D701BD581BA5D42C00DE61B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D701BD591BA5D42C00DE61B6 /* Build configuration list for PBXNativeTarget "JFButtonPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D701BD5A1BA5D42C00DE61B6 /* Debug */,
+				D701BD5B1BA5D42C00DE61B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D701BD2B1BA5D42C00DE61B6 /* Project object */;
+}
