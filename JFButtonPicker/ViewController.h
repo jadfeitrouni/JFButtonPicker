@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JFButtonPicker.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <buttonPickerDelegate>
+
+@property (weak, nonatomic) IBOutlet JFButtonPicker *date;
+@property (weak, nonatomic) IBOutlet JFButtonPicker *time;
+@property (weak, nonatomic) IBOutlet JFButtonPicker *dateTime;
+@property (weak, nonatomic) IBOutlet JFButtonPicker *data;
 
 
 @end

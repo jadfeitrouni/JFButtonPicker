@@ -14,6 +14,7 @@
 		D701BD441BA5D42C00DE61B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D701BD431BA5D42C00DE61B6 /* Images.xcassets */; };
 		D701BD471BA5D42C00DE61B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D701BD451BA5D42C00DE61B6 /* LaunchScreen.xib */; };
 		D701BD531BA5D42C00DE61B6 /* JFButtonPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BD521BA5D42C00DE61B6 /* JFButtonPickerTests.m */; };
+		D701BD611BA5D48200DE61B6 /* JFButtonPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D701BD601BA5D48200DE61B6 /* JFButtonPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D701BD4C1BA5D42C00DE61B6 /* JFButtonPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFButtonPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D701BD511BA5D42C00DE61B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D701BD521BA5D42C00DE61B6 /* JFButtonPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFButtonPickerTests.m; sourceTree = "<group>"; };
+		D701BD5F1BA5D48200DE61B6 /* JFButtonPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFButtonPicker.h; sourceTree = "<group>"; };
+		D701BD601BA5D48200DE61B6 /* JFButtonPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFButtonPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				D701BD3A1BA5D42C00DE61B6 /* AppDelegate.h */,
 				D701BD3B1BA5D42C00DE61B6 /* AppDelegate.m */,
+				D701BD5F1BA5D48200DE61B6 /* JFButtonPicker.h */,
+				D701BD601BA5D48200DE61B6 /* JFButtonPicker.m */,
 				D701BD3D1BA5D42C00DE61B6 /* ViewController.h */,
 				D701BD3E1BA5D42C00DE61B6 /* ViewController.m */,
 				D701BD401BA5D42C00DE61B6 /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D701BD3F1BA5D42C00DE61B6 /* ViewController.m in Sources */,
+				D701BD611BA5D48200DE61B6 /* JFButtonPicker.m in Sources */,
 				D701BD3C1BA5D42C00DE61B6 /* AppDelegate.m in Sources */,
 				D701BD391BA5D42C00DE61B6 /* main.m in Sources */,
 			);

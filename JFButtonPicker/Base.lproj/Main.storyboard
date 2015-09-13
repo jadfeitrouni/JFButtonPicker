@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,73 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dm-dm-jmu" customClass="JFButtonPicker">
+                                <rect key="frame" x="16" y="85" width="568" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.22048045080000001" blue="0.081196648499999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="zwY-CD-if5"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tt-Ff-2ja" customClass="JFButtonPicker">
+                                <rect key="frame" x="16" y="142" width="568" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.22048045080000001" blue="0.081196648499999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Hfy-DP-O95"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJI-cb-CI6" customClass="JFButtonPicker">
+                                <rect key="frame" x="16" y="199" width="568" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.22048045080000001" blue="0.081196648499999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="JWt-dM-nlC"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9i-Q8-mfZ" customClass="JFButtonPicker">
+                                <rect key="frame" x="16" y="28" width="568" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.22048045080000001" blue="0.081196648499999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="oQI-2V-Cta"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8dm-dm-jmu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="4dN-xv-36I"/>
+                            <constraint firstAttribute="trailing" secondItem="JJI-cb-CI6" secondAttribute="trailing" constant="16" id="92o-oZ-jM5"/>
+                            <constraint firstAttribute="trailing" secondItem="8dm-dm-jmu" secondAttribute="trailing" constant="16" id="DsQ-iN-G4p"/>
+                            <constraint firstItem="0Tt-Ff-2ja" firstAttribute="top" secondItem="8dm-dm-jmu" secondAttribute="bottom" constant="8" id="Gdm-4P-Rap"/>
+                            <constraint firstItem="JJI-cb-CI6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="JX3-bj-UfP"/>
+                            <constraint firstItem="8dm-dm-jmu" firstAttribute="top" secondItem="V9i-Q8-mfZ" secondAttribute="bottom" constant="8" id="Jye-ec-Q72"/>
+                            <constraint firstItem="JJI-cb-CI6" firstAttribute="top" secondItem="0Tt-Ff-2ja" secondAttribute="bottom" constant="8" id="Nul-oM-bzQ"/>
+                            <constraint firstItem="8dm-dm-jmu" firstAttribute="top" secondItem="V9i-Q8-mfZ" secondAttribute="bottom" constant="8" id="TEe-Eo-53a"/>
+                            <constraint firstAttribute="trailing" secondItem="V9i-Q8-mfZ" secondAttribute="trailing" constant="16" id="Tz5-AB-vWY"/>
+                            <constraint firstItem="0Tt-Ff-2ja" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Yuz-OJ-qec"/>
+                            <constraint firstItem="0Tt-Ff-2ja" firstAttribute="top" secondItem="8dm-dm-jmu" secondAttribute="bottom" constant="8" id="auT-Jr-Kad"/>
+                            <constraint firstItem="V9i-Q8-mfZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="dUG-TF-0ja"/>
+                            <constraint firstItem="V9i-Q8-mfZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="g2Y-Up-sr9"/>
+                            <constraint firstAttribute="trailing" secondItem="0Tt-Ff-2ja" secondAttribute="trailing" constant="16" id="tPu-eO-hlb"/>
+                            <constraint firstItem="JJI-cb-CI6" firstAttribute="top" secondItem="0Tt-Ff-2ja" secondAttribute="bottom" constant="8" id="ysN-Kg-Jbd"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="data" destination="V9i-Q8-mfZ" id="Elw-zR-0ZA"/>
+                        <outlet property="date" destination="8dm-dm-jmu" id="IUP-Os-FL1"/>
+                        <outlet property="dateTime" destination="0Tt-Ff-2ja" id="tA0-49-el8"/>
+                        <outlet property="time" destination="JJI-cb-CI6" id="XzV-Im-AGV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
